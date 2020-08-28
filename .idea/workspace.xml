@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc50f09a-c492-4621-83b3-6abc49865544" name="Default Changelist" comment="" />
+    <list default="true" id="bc50f09a-c492-4621-83b3-6abc49865544" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Helpers/general.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/SettingTranslation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_074910_create_settings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_075152_create_setting_translations_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminDatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/admin/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/admin/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/laravellocalization.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -17,6 +42,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,18 +149,39 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/astrotomic/laravel-translatable" />
+      <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gDTc9XkbTvNqmGmsxBn2b5fOwH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ecommerce\resources\lang\en" />
+      <recent name="C:\xampp\htdocs\ecommerce\resources\lang\ar\admin" />
+      <recent name="C:\xampp\htdocs\ecommerce\resources\lang" />
+      <recent name="C:\xampp\htdocs\ecommerce\app\Helpers" />
+      <recent name="C:\xampp\htdocs\ecommerce\resources\views\dashboard\settings\shippings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ecommerce\app\Models" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -148,11 +197,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597648246673</updated>
-      <workItem from="1597648249012" duration="498000" />
+      <workItem from="1597648249012" duration="1311000" />
+      <workItem from="1597674688034" duration="5170000" />
+      <workItem from="1597762485124" duration="6553000" />
+      <workItem from="1597848597691" duration="6062000" />
+      <workItem from="1597922262957" duration="2746000" />
+      <workItem from="1597994401402" duration="6753000" />
+      <workItem from="1598106761583" duration="6050000" />
+      <workItem from="1598366603308" duration="2766000" />
+      <workItem from="1598372012381" duration="1949000" />
+      <workItem from="1598614987693" duration="767000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="51" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597852377775">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="51" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1597852377775" />
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598368397279">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598368397279" />
+    <state x="156" y="263" key="NewPhpFileDialog" timestamp="1597850245911">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="156" y="263" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1597850245911" />
+    <state x="-23" y="154" key="run.anything.popup" timestamp="1597850032989">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-23" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1597850032989" />
   </component>
 </project>
