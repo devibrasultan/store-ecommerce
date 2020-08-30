@@ -6,8 +6,14 @@ class Setting extends Model
 {
 //
     use Translatable;
-// protected $with = ['translations'];
+    protected $with = ['translations'];
     public $translatedAttributes = ['value'];
+    protected $fillable = ['key', 'is_translatable', 'plain_value'];
+
+    protected $casts = [
+        'is_translatable' => 'boolean',
+    ];
+
     public static function setMany($settings)
     {
         foreach ($settings as $key => $value) {
